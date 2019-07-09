@@ -24,32 +24,49 @@ footer{
 
 }
 
-.menu-click{
-    color: white;
+
+#photo{
+    height: 500px;
+    margin-top: 50px;
+    margin-left: -10px;
+    border-radius: 10px;
+}
+
+.menuclick{
+    color: rgb(197, 190, 88);
     padding: 5px;
     font-size: 20px;
 
 }
 
+.menuclick:hover{
+    background-color: white;
+    color: #272727;
+    border-radius: 5px;
+}
+
 #time{
-    margin-top: 80px;
+    margin-top: -450px;
     margin-left: 40px;
     color: white;
     font-size: 80px;
     
 }
 
-.menu-click:hover{
-    background-color: white;
-    color: #272727;
-    border-radius: 5px;
+#msg{
+    margin-left: 520px;
+    font-size: 30px;
+    margin-top: 50px;
+    color: white;
 }
+
+
 
 a{
     text-decoration-line: none;
 }
 
-li{
+#li1{
     list-style: none;
     margin-top: 12px;
     margin-left: 80%;
