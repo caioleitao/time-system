@@ -9,8 +9,8 @@ var click = document.getElementsByClassName("menuclick")
 var img = document.getElementById("photo")
 
 
-// var hora = data.getHours()
-var hora = 24
+var hora = data.getHours()
+//var hora = 24
 var minuto = data.getMinutes()
 var dia = data.getDate()
 
@@ -24,11 +24,10 @@ header.style.backgroundColor = "#ffffff"
 time.style.color = "#fff"
 
 } else if(hora >= 12 && hora < 18){
-
-    msg.innerHTML = "Bom dia!"
-    body.style.backgroundColor = "#dddddd"
-    time.style.color = "#fff"
-    msg.innerHTML = "Boa tarde!"
+body.style.backgroundColor = "#dddddd"
+time.style.color = "#fff"
+msg.innerHTML = "Boa tarde!"
+img.src = "_data/afternoon.jpeg"
 
 }else{
 
